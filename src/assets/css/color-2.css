@@ -1,0 +1,12 @@
+:root .homeOne {
+  --thm-primary: #ff7d13;
+  --thm-primary-rgb: 255, 125, 19;
+  --thm-heading-font-color: #0d4250;
+  --thm-black: #121213;
+  --thm-black-rgb: 18, 18, 19;
+  --thm-gray-bg: #f7f7f7;
+  --thm-gray-bg-rgb: #f7f7f7;
+  --thm-white-rgb: 255, 255, 255;
+  --thm-body-font-color: #6f7174;
+  --thm-paragraph-color: #6f7174;
+}

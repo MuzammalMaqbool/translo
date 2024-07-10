@@ -1,0 +1,50 @@
+[
+  {
+    "image": "/img/testimonial/testimonials-one__img1.jpg",
+    "name": "Rebecca",
+    "role": "Client",
+    "quote": "Good Services",
+    "rating": 5,
+    "description": "The AK Solutions has been an essential partner for our dispatching needs. Their honesty and dedication are unmatched."
+  },
+  {
+    "image": "/img/testimonial/testimonials-one__img2.jpg",
+    "name": "Helen Rose",
+    "role": "Client",
+    "quote": "Great Work",
+    "rating": 5,
+    "description": "The service provided by The AK Solutions is top-notch. They always ensure our loads are handled efficiently."
+  },
+  {
+    "image": "/img/testimonial/testimonials-one__img1.jpg",
+    "name": "Emily Johnson",
+    "role": "Client",
+    "quote": "Good Services",
+    "rating": 5,
+    "description": "Excellent support and assistance from The AK Solutions team. Their commitment to our success is evident."
+  },
+  {
+    "image": "/img/testimonial/testimonials-one__img2.jpg",
+    "name": "Jessica Brown",
+    "role": "Client",
+    "quote": "Great Work",
+    "rating": 5,
+    "description": "The AK Solutions always delivers quality service, making our operations smoother."
+  },
+  {
+    "image": "/img/testimonial/testimonials-one__img1.jpg",
+    "name": "David Jones",
+    "role": "Client",
+    "quote": "Good Services",
+    "rating": 5,
+    "description": "As a regular client, I highly recommend The AK Solutions for their excellent dispatching services."
+  },
+  {
+    "image": "/img/testimonial/testimonials-one__img2.jpg",
+    "name": "Jennifer Davis",
+    "role": "Client",
+    "quote": "Great Work",
+    "rating": 5,
+    "description": "The AK Solutions offers a wide range of dispatching services, ensuring our needs are always met."
+  }
+]
