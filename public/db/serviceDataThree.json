@@ -1,72 +1,58 @@
 [
   {
-    "image": "/img/service/service-v2-img1.jpg",
+    "image": "/img/service/Trucks.webp",
     "number": "01",
-    "title": "Air Freight",
-    "text": "Consectetur bibendum ipsum tincidunt Proin suscipit",
-    "link": "air-freight"
+    "title": "Dry Van",
+    "text": "Dry vans keep goods secure across the US. Trust Logity Dispatch for reliable, friendly dry van dispatch services.",
+    "link": "#"
   },
   {
-    "image": "/img/service/service-v2-img2.jpg",
+    "image": "/img/service/home-trucks-img-2.webp",
     "number": "02",
-    "title": "Ocean Freight",
-    "text": "The point of using Lorem Ipsum is that it has a more",
-    "link": "ocean-freight"
+    "title": "Step Deck",
+    "text": "Managing oversize cargo demands expertise. Let us handle load sourcing, negotiation, and paperwork for your business success.",
+    "link": "#"
   },
   {
-    "image": "/img/service/service-v2-img3.jpg",
+    "image": "/img/service/home-trucks-img-3.webp",
     "number": "03",
-    "title": "Cargo Container",
-    "text": "All the Lorem Ipsum generators on the Internet tend",
-    "link": "cargo-transport"
+    "title": "Reefer",
+    "text": "Reefer trucks ensure top-notch temperature control. Count on Logity Dispatch for streamlined, efficient dispatch solutions.",
+    "link": "#"
   },
   {
-    "image": "/img/service/service-v2-img4.jpg",
+    "image": "/img/service/home-trucks-img-4-1.webp",
     "number": "04",
-    "title": "Road Transport",
-    "text": "pursue pleasure rationally painful consequencesare extremely",
-    "link": "road-transport"
+    "title": "Flatbed",
+    "text": "Flatbed trucks support the economy with heavy-duty cargo transport. Partner with us to connect with ideal clients.",
+    "link": "#"
   },
   {
-    "image": "/img/service/service-v2-img1.jpg",
+    "image": "/img/service/img-power-only-2.webp",
     "number": "05",
-    "title": "Air Freight",
-    "text": "Consectetur bibendum ipsum tincidunt Proin suscipit",
-    "link": "air-freight"
+    "title": "Power Only",
+    "text": "Since 2015, Logity Dispatch specializes in power-only services for efficient equipment transport across various trailers.",
+    "link": "#"
   },
   {
-    "image": "/img/service/service-v2-img2.jpg",
+    "image": "/img/service/home-trucks-img-5.webp",
     "number": "06",
-    "title": "Ocean Freight",
-    "text": "The point of using Lorem Ipsum is that it has a more",
-    "link": "ocean-freight"
+    "title": "Hotshot",
+    "text": "Hotshot drivers play a critical role in timely deliveries. Enhance your business with our reliable dispatch services.",
+    "link": "#"
   },
   {
-    "image": "/img/service/service-v2-img3.jpg",
+    "image": "/img/service/boxtruck-article.webp",
     "number": "07",
-    "title": "Cargo Container",
-    "text": "All the Lorem Ipsum generators on the Internet tend",
-    "link": "cargo-transport"
+    "title": "Boxtruck",
+    "text": "Box trucks offer versatile, license-free load running options. Simplify operations with Logity Dispatch’s comprehensive services.",
+    "link": "#"
   },
   {
-    "image": "/img/service/service-v2-img4.jpg",
+    "image": "/img/service/Straight-truck_White_truck_stop_summer.webp",
     "number": "08",
-    "title": "Road Transport",
-    "text": "pursue pleasure rationally painful consequencesare extremely",
-    "link": "road-transport"
-  },
-  {
-    "image": "/img/service/service-v2-img1.jpg",
-    "number": "09",
-    "title": "Air Freight",
-    "text": "Consectetur bibendum ipsum tincidunt Proin suscipit",
-    "link": "air-freight"
-  },
-  {
-    "image": "/img/service/service-v2-img2.jpg",
-    "number": "10",
-    "title": "Ocean Freight",
-    "text": "The point of using Lorem Ipsum is that it has a more",
-    "link": "ocean-freight"
+    "title": "Straight Truck",
+    "text": "Popular for local deliveries, straight trucks boost small business logistics. Optimize your profits with our tailored dispatch services.",
+    "link": "#"
   }
 ]

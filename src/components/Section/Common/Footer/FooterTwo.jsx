@@ -43,8 +43,8 @@ const FooterTwo = () => {
                   </div>
                   <div className="footer-widget__about-inner">
                     <p className="text1">
-                      Whether it&apos;s local or long-distance transportation, we
-                      have you covered.
+                      Whether it&apos;s local or long-distance transportation,
+                      we have you covered.
                     </p>
                     <p className="text2">We are available</p>
                     <p className="text3">Mon-Sat: 10:00am to 07:30pm</p>
@@ -81,9 +81,9 @@ const FooterTwo = () => {
                         <Link href="about">Mission & Vision</Link>
                       </li>
                       <li>
-                        <Link href="about">Get Pricing Plan</Link>
+                        <Link href="/services">Get Pricing Plan</Link>
                       </li>
-                      <li>
+                      {/*   <li>
                         <Link href="team">Meet The Team</Link>
                       </li>
                       <li>
@@ -92,8 +92,9 @@ const FooterTwo = () => {
                       <li>
                         <Link href="about">Available Positions</Link>
                       </li>
+                      */}
                       <li>
-                        <Link href="about">Job Application</Link>
+                        <Link href="/carrier">Carrier Setup</Link>
                       </li>
                     </ul>
                   </div>
@@ -110,15 +111,6 @@ const FooterTwo = () => {
 
                   <div className="footer-widget__links-box">
                     <ul>
-                      <li>
-                        <Link href="road-transport">Air Freight</Link>
-                      </li>
-                      <li>
-                        <Link href="road-transport">Ocean Freight</Link>
-                      </li>
-                      <li>
-                        <Link href="road-transport">Railway Freight</Link>
-                      </li>
                       <li>
                         <Link href="road-transport">Warehousing</Link>
                       </li>
@@ -175,21 +167,21 @@ const FooterTwo = () => {
           <div className="footer-bottom__inner">
             <div className="copyright-text">
               <p>
-                © {currentYear} <Link href="/">Translo,</Link> All Rights
-                Reserved.
+                © {currentYear} <Link href="/">The Ak Solutions,</Link> All
+                Rights Reserved.
               </p>
             </div>
             <div className="copyright-menu">
               <ul>
                 <li>
-                  <Link href="about">Trams &amp; Condition</Link>
+                  <Link href="term">Trams &amp; Condition</Link>
                 </li>
                 <li>
-                  <Link href="about">Privacy Policy</Link>
+                  <Link href="policy">Privacy Policy</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="about">Support</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

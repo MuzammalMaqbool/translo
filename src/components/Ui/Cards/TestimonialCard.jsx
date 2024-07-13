@@ -9,7 +9,11 @@ const TestimonialCard = ({ item }) => {
       <div className="border-left"></div>
       <div className="testimonials-one__single-top">
         <div className="img-box">
-          <img src={item?.image} alt="" />
+          <img src={item?.image} alt="" style={{
+            width: "80px",
+            height: "80px",
+            objectFit: "cover",
+          }}/>
         </div>
 
         <div className="title-box">

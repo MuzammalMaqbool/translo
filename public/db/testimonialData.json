@@ -1,47 +1,47 @@
 [
   {
-    "image": "/img/testimonial/testimonials-one__img1.jpg",
-    "name": "Rebecca",
+    "image": "/img/testimonial/1.jpg",
+    "name": "Daniel White",
     "role": "Client",
     "quote": "Good Services",
     "rating": 5,
     "description": "The AK Solutions has been an essential partner for our dispatching needs. Their honesty and dedication are unmatched."
   },
   {
-    "image": "/img/testimonial/testimonials-one__img2.jpg",
-    "name": "Helen Rose",
+    "image": "/img/testimonial/2.jpg",
+    "name": "Christopher Clark",
     "role": "Client",
     "quote": "Great Work",
     "rating": 5,
     "description": "The service provided by The AK Solutions is top-notch. They always ensure our loads are handled efficiently."
   },
   {
-    "image": "/img/testimonial/testimonials-one__img1.jpg",
-    "name": "Emily Johnson",
+    "image": "/img/testimonial/3.jpg",
+    "name": "Matthew Turner",
     "role": "Client",
     "quote": "Good Services",
     "rating": 5,
     "description": "Excellent support and assistance from The AK Solutions team. Their commitment to our success is evident."
   },
   {
-    "image": "/img/testimonial/testimonials-one__img2.jpg",
-    "name": "Jessica Brown",
+    "image": "/img/testimonial/4.jpg",
+    "name": "Andrew Harris",
     "role": "Client",
     "quote": "Great Work",
     "rating": 5,
     "description": "The AK Solutions always delivers quality service, making our operations smoother."
   },
   {
-    "image": "/img/testimonial/testimonials-one__img1.jpg",
-    "name": "David Jones",
+    "image": "/img/testimonial/5.jpg",
+    "name": "Joseph Martinez",
     "role": "Client",
     "quote": "Good Services",
     "rating": 5,
     "description": "As a regular client, I highly recommend The AK Solutions for their excellent dispatching services."
   },
   {
-    "image": "/img/testimonial/testimonials-one__img2.jpg",
-    "name": "Jennifer Davis",
+    "image": "/img/testimonial/6.jpg",
+    "name": "Ryan Phillips",
     "role": "Client",
     "quote": "Great Work",
     "rating": 5,

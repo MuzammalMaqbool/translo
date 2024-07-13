@@ -225,6 +225,9 @@ const Header = () => {
                           <li>
                             <Link href="/services">Services</Link>
                           </li>
+                          <li>
+                            <Link href="/carrier">Carrier Setup</Link>
+                          </li>
                           {/* <ul className="sub-menu">
                               <li>
                                 <Link
@@ -544,9 +547,9 @@ const Header = () => {
                   <li>
                     <Link href="/services">Services</Link>
                   </li>
-                  {/* <li>
-                    <Link href="team">Team</Link>
-                  </li> */}
+                  <li>
+                    <Link href="carrier">Carrier Setup</Link>
+                  </li>
                   <li>
                     <Link href="projects">Projects</Link>
                   </li>
@@ -563,7 +566,7 @@ const Header = () => {
                   <span className="icon-telephone-handle-silhouette"></span>
                 </div>
                 <p>
-                  <Link href="tel:123456789">(629) 555-0129</Link>
+                  <Link href="tel:+14438240078">+1 443 824 0078</Link>
                 </p>
               </div>
               <div className="social-links">

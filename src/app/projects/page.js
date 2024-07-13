@@ -3,6 +3,7 @@ import FooterThree from "~/components/Section/Common/Footer/FooterThree";
 import PageHeader from "~/components/Section/Common/PageHeader";
 import HeaderFour from "~/components/Section/Common/Header";
 import CtaThree from "~/components/Section/Common/Cta/CtaThree";
+import FooterTwo from "~/components/Section/Common/Footer/FooterTwo";
 
 const ProjectPage = () => {
   return (
@@ -12,7 +13,7 @@ const ProjectPage = () => {
         <PageHeader title="Our Projects" />
         <ProjectSection />
         <CtaThree />
-        <FooterThree />
+        <FooterTwo />
       </div>
     </div>
   );

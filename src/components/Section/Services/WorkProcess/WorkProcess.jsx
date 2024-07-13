@@ -22,9 +22,9 @@ const WorkProcess = () => {
                 <div className="container">
                     <div className="sec-title-style3 text-center">
                         <div className="sub-title center">
-                            <div className="icon">
+                            {/* <div className="icon">
                                 <img src="/img/icon/title-marker.png" alt="" />
-                            </div>
+                            </div> */}
                             <h5>work process</h5>
                         </div>
                         <h2>Easy 3 Working Step</h2>

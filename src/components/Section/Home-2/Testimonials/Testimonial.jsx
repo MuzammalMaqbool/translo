@@ -10,9 +10,14 @@ import TestimonialCard from "~/components/Ui/Cards/TestimonialCard";
 const Testimonial = () => {
   return (
     <section className="testimonials-one padding">
-      <div className="testimonials-two__bg" style={{ backgroundImage: "url(/img/background/testimonials-v2-bg.jpg)" }}></div>
+      <div
+        className="testimonials-two__bg"
+        style={{
+          backgroundImage: "url(/img/background/testimonials-v2-bg.jpg)",
+        }}
+      ></div>
       <div className="container">
-      <div className="sec-title-two">
+        <div className="sec-title-two">
           <div className="sub-title">
             <h5>Testimonials</h5>
           </div>

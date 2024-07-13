@@ -2,41 +2,91 @@
   {
     "id": 1,
     "image": "/img/service/service-v3-img1.jpg",
-    "iconClass": "icon-road-transport t5",
-    "title": "Road Transport",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "icon": "FaTruck",
+    "title": "Comprehensive Dispatching Services",
+    "description": "Comprehensive dispatching services for full truckload and less than truckload shipments, ensuring efficient delivery and management.",
     "count": "01",
-    "link": "road-transport",
+    "link": "comprehensive-dispatching-services",
     "number": "01"
   },
   {
     "id": 2,
     "image": "/img/service/service-v3-img2.jpg",
-    "iconClass": "icon-ocean-freight1",
-    "title": "Ocean Freight",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "icon": "FaMapMarkerAlt",
+    "title": "Real-Time GPS Tracking",
+    "description": "Advanced GPS tracking systems to monitor and track shipments in real-time, ensuring visibility and security throughout transit.",
     "count": "02",
-    "link": "ocean-freight",
+    "link": "real-time-gps-tracking",
     "number": "02"
   },
   {
     "id": 3,
     "image": "/img/service/service-v3-img3.jpg",
-    "iconClass": "icon-experience",
-    "title": "Cargo Container",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
+    "icon": "FaBoxes",
+    "title": "Load Planning and Optimization",
+    "description": "Optimized load planning to maximize efficiency and minimize costs, ensuring timely deliveries and reduced transit times.",
     "count": "03",
-    "link": "cargo-container",
+    "link": "load-planning-and-optimization",
     "number": "03"
   },
   {
-    "id": 3,
-    "image": "/img/service/service-v3-img3.jpg",
-    "iconClass": "icon-experience",
-    "title": "Cargo Container",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sed eiusmod",
-    "count": "03",
-    "link": "cargo-container",
-    "number": "03"
+    "id": 4,
+    "image": "/img/service/service-v3-img4.jpg",
+    "icon": "FaUser",
+    "title": "Driver Management and Support",
+    "description": "24/7 driver support and management services, including route guidance, compliance, and support for operational challenges.",
+    "count": "04",
+    "link": "driver-management-and-support",
+    "number": "04"
+  },
+  {
+    "id": 5,
+    "image": "/img/service/service-v3-img5.jpg",
+    "icon": "FaComments",
+    "title": "Customer Communication and Updates",
+    "description": "Regular communication with customers to provide updates on shipments, ensuring transparency and customer satisfaction.",
+    "count": "05",
+    "link": "customer-communication-and-updates",
+    "number": "05"
+  },
+  {
+    "id": 6,
+    "image": "/img/service/service-v3-img6.jpg",
+    "icon": "FaRoute",
+    "title": "Route Analysis and Reporting",
+    "description": "Detailed analysis of routes and reporting to optimize logistics operations, improve efficiency, and reduce operational costs.",
+    "count": "06",
+    "link": "route-analysis-and-reporting",
+    "number": "06"
+  },
+  {
+    "id": 7,
+    "image": "/img/service/service-v3-img7.jpg",
+    "icon": "FaMoneyBillWave",
+    "title": "Cost Management",
+    "description": "Effective cost management strategies to control expenses and maximize profitability, ensuring competitive pricing and profitability.",
+    "count": "07",
+    "link": "cost-management",
+    "number": "07"
+  },
+  {
+    "id": 8,
+    "image": "/img/service/service-v3-img8.jpg",
+    "icon": "FaShieldAlt",
+    "title": "Insurance and Risk Management",
+    "description": "Comprehensive insurance and risk management services to mitigate risks and ensure compliance with industry regulations.",
+    "count": "08",
+    "link": "insurance-and-risk-management",
+    "number": "08"
+  },
+  {
+    "id": 9,
+    "image": "/img/service/service-v3-img9.jpg",
+    "icon": "FaFileAlt",
+    "title": "Compliance and Documentation",
+    "description": "Strict adherence to compliance requirements and meticulous documentation management to ensure regulatory compliance and operational efficiency.",
+    "count": "09",
+    "link": "compliance-and-documentation",
+    "number": "09"
   }
 ]
