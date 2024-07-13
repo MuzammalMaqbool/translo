@@ -19,10 +19,10 @@ const AboutPage = () => {
         <AboutSection />
         <FactSection />
         <ServiceSection />
-        <ProjectSection />
-        <Team />
-        <BlogSection />
-        <BrandSection />
+        {/* <ProjectSection /> */}
+        {/* <Team /> */}
+        {/* <BlogSection /> */}
+        {/* <BrandSection /> */}
         <CtaThree />
         <FooterThree />
       </div>
