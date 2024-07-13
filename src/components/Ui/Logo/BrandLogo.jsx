@@ -8,7 +8,15 @@ const BrandLogo = ({ imageSrc }) => {
   return (
     // <img src={logoSrc} alt="" />
     <>
-      <h2>The AK Solutions</h2>
+      <h2 style={{
+        color: "#ffffff",
+        fontWeight: "bold",
+        fontSize: "24px",
+        textTransform: "uppercase",
+        letterSpacing: "1px",
+        marginTop: "10px",
+        marginBottom: "10px"
+      }}>The AK Solutions</h2>
     </>
   );
 };

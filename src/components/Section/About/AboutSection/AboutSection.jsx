@@ -103,7 +103,7 @@ const AboutSection = () => {
                   <div className="text-box">
                     <p>Need Help?</p>
                     <h3>
-                      <Link href="tel:123456789">+00 264 566 579</Link>
+                      <Link href="tel:+14438240078">+1 443 824 0078</Link>
                     </h3>
                   </div>
                 </div>

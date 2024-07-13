@@ -123,7 +123,7 @@ const Hero = () => {
               />
             </div>
             <div className="big-title">
-              <h2>Translo</h2>
+              <h2>AK-SOLUTIONS</h2>
             </div>
             <div className="container">
               <div className="main-slider-two__single padding">
@@ -179,7 +179,7 @@ const Hero = () => {
               />
             </div>
             <div className="big-title">
-              <h2>Translo</h2>
+              <h2>AK-SOLUTIONS</h2>
             </div>
             <div className="container">
               <div className="main-slider-two__single padding">
@@ -235,7 +235,7 @@ const Hero = () => {
               />
             </div>
             <div className="big-title">
-              <h2>Translo</h2>
+              <h2>AK-SOLUTIONS</h2>
             </div>
             <div className="container">
               <div className="main-slider-two__single padding">

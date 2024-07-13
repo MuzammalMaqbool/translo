@@ -77,6 +77,10 @@ const Header = () => {
   };
   function preloader() {
     // Implementation of the preloader function
+    var preloader = document.getElementById("preloader");
+    if (preloader) {
+      preloader.style.display = "none";
+    }
   }
   if (typeof window !== "undefined") {
     window.onload = () => {
@@ -540,18 +544,18 @@ const Header = () => {
                   <li>
                     <Link href="/services">Services</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="team">Team</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="projects">Projects</Link>
                   </li>
                   <li>
                     <Link href="contact">Contact</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="blog">Blog</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               <div className="contact-info">
