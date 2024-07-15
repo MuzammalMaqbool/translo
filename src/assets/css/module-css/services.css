@@ -656,6 +656,8 @@
 
 .services-three__single-img .inner img {
   width: 100%;
+  height: 240px;
+  object-fit: cover;
   transition: 0.5s ease;
   transform: scale(1.05);
 }

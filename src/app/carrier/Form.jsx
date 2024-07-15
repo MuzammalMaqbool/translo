@@ -80,10 +80,6 @@ const DispatchingServiceForm = () => {
   return (
     <div className="dispatch-form">
       <div className="dispatch-form__form-box">
-        <div className="title">
-          <h2>Feel free to write Us</h2>
-        </div>
-
         <form id="dispatch-form" onSubmit={formik.handleSubmit}>
           <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
