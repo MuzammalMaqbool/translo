@@ -1,30 +1,18 @@
 /* eslint-disable @next/next/no-assign-module-variable */
 /* eslint-disable @next/next/no-img-element */
 "use client";
-import React, { useEffect, useState } from "react";
-
-// Throttle function for scroll events
-function throttle(callback, delay) {
-  let lastCall = 0;
-  return function () {
-    const now = new Date().getTime();
-    if (now - lastCall < delay) {
-      return;
-    }
-    lastCall = now;
-    callback.apply(null, arguments);
-  };
-}
+import { throttle } from "lodash";
+import React, { useEffect, useState, useRef } from "react";
 
 const Fact = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [AnimatedNumbers, setAnimatedNumbers] = useState(null);
+  const sectionRef = useRef(null);
 
+  const handleScroll = throttle(() => {
   useEffect(() => {
-    const handleScroll = throttle(() => {
-      const section = document.getElementById("fact-counter");
-      if (section) {
-        const rect = section.getBoundingClientRect();
+      if (sectionRef.current) {
+        const rect = sectionRef.current.getBoundingClientRect();
         const isVisible = rect.top <= window.innerHeight && rect.bottom >= 0;
         setIsVisible(isVisible);
       }
@@ -45,8 +33,35 @@ const Fact = () => {
     fetchComponent();
   }, []);
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
+      },
+      {
+        root: null, // Use the viewport
+        rootMargin: "0px",
+        threshold: 0.1, // Trigger when 10% of the element is visible
+      }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, [sectionRef]);
+
   return (
-    <section className="fact-counter-two padding-bottom" id="fact-counter">
+    <section
+      className="fact-counter-two padding-bottom"
+      id="fact-counter"
+      ref={sectionRef}
+    >
       <div className="shape1 float-bob-y ">
         <img src="/img/shape/counter-v2-shape1.png" alt="" />
       </div>

@@ -1,31 +1,19 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
-
-// Throttle function for scroll events
-function throttle(callback, delay) {
-  let lastCall = 0;
-  return function () {
-    const now = new Date().getTime();
-    if (now - lastCall < delay) {
-      return;
-    }
-    lastCall = now;
-    callback.apply(null, arguments);
-  };
-}
+import { throttle } from "lodash";
 
 const ChooseUs = () => {
   const successRate = 90;
   const [isVisible, setIsVisible] = useState(false);
   const [AnimatedNumbers, setAnimatedNumbers] = useState(null);
+  const sectionRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = throttle(() => {
-      const section = document.getElementById("choose-two");
-      if (section) {
-        const rect = section.getBoundingClientRect();
+      if (sectionRef.current) {
+        const rect = sectionRef.current.getBoundingClientRect();
         const isVisible = rect.top <= window.innerHeight && rect.bottom >= 0;
         setIsVisible(isVisible);
       }
@@ -47,10 +35,34 @@ const ChooseUs = () => {
     fetchComponent();
   }, []);
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
+      },
+      {
+        root: null, // Use the viewport
+        rootMargin: "0px",
+        threshold: 0.1, // Trigger when 10% of the element is visible
+      }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, [sectionRef]);
+
   return (
     <section
       className="why-choose-two why-choose-two--services padding"
       id="choose-two"
+      ref={sectionRef}
     >
       <div className="container">
         <div className="row">
