@@ -4,6 +4,7 @@ import Link from "next/link";
 import Navlink from "./Navlink";
 import { usePathname } from "next/navigation";
 import Select from "react-select";
+
 const options = [
   { value: "EN1", label: "EN" },
   { value: "EN2", label: "FR" },

@@ -1,35 +1,52 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import React, { useEffect, useState, Suspense } from "react";
+
+// Throttle function for scroll events
+function throttle(callback, delay) {
+  let lastCall = 0;
+  return function () {
+    const now = new Date().getTime();
+    if (now - lastCall < delay) {
+      return;
+    }
+    lastCall = now;
+    callback.apply(null, arguments);
+  };
+}
 
 const ChooseUs = () => {
   const successRate = 90;
   const [isVisible, setIsVisible] = useState(false);
-  const [AnimatedNumbers, setAnimatedNumbers] = useState(undefined);
+  const [AnimatedNumbers, setAnimatedNumbers] = useState(null);
+
   useEffect(() => {
-    const handleScroll = () => {
+    const handleScroll = throttle(() => {
       const section = document.getElementById("choose-two");
       if (section) {
         const rect = section.getBoundingClientRect();
         const isVisible = rect.top <= window.innerHeight && rect.bottom >= 0;
         setIsVisible(isVisible);
       }
-    };
+    }, 100); // Adjust throttle delay as needed
+
     window.addEventListener("scroll", handleScroll);
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   useEffect(() => {
     // Dynamically import AnimatedNumbers component only on the client side
     const fetchComponent = async () => {
-      // eslint-disable-next-line @next/next/no-assign-module-variable
-      const module = await import("react-animated-numbers");
-      setAnimatedNumbers(() => module.default);
+      const animatedNumbersModule = await import("react-animated-numbers");
+      setAnimatedNumbers(animatedNumbersModule.default);
     };
     fetchComponent();
   }, []);
+
   return (
     <section
       className="why-choose-two why-choose-two--services padding"
@@ -41,9 +58,6 @@ const ChooseUs = () => {
             <div className="why-choose-two__content">
               <div className="sec-title-style3">
                 <div className="sub-title">
-                  {/* <div className="icon">
-                                        <img src="/img/icon/title-marker-4.png" alt="" />
-                                    </div> */}
                   <h5>Why choose us</h5>
                 </div>
                 <h2>
@@ -92,7 +106,7 @@ const ChooseUs = () => {
                     <div className="text-box">
                       <h2 className="count d-flex">
                         <span className="odometer" data-count="35">
-                          {isVisible && (
+                          {isVisible && AnimatedNumbers && (
                             <AnimatedNumbers
                               animateToNumber={35}
                               transitions={(index) => ({
@@ -125,7 +139,7 @@ const ChooseUs = () => {
                     <div className="text-box">
                       <h2 className="count d-flex">
                         <span className="odometer" data-count="250">
-                          {isVisible && (
+                          {isVisible && AnimatedNumbers && (
                             <AnimatedNumbers
                               animateToNumber={250}
                               transitions={(index) => ({
@@ -158,7 +172,7 @@ const ChooseUs = () => {
                     <div className="text-box">
                       <h2 className="count d-flex">
                         <span className="odometer" data-count="365">
-                          {isVisible && (
+                          {isVisible && AnimatedNumbers && (
                             <AnimatedNumbers
                               animateToNumber={365}
                               transitions={(index) => ({
@@ -191,7 +205,7 @@ const ChooseUs = () => {
                     <div className="text-box">
                       <h2 className="count d-flex">
                         <span className="odometer" data-count="12">
-                          {isVisible && (
+                          {isVisible && AnimatedNumbers && (
                             <AnimatedNumbers
                               animateToNumber={12}
                               transitions={(index) => ({
