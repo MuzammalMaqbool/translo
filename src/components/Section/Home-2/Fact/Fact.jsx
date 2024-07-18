@@ -9,17 +9,17 @@ const Fact = () => {
   const [AnimatedNumbers, setAnimatedNumbers] = useState(null);
   const sectionRef = useRef(null);
 
-  const handleScroll = throttle(() => {
   useEffect(() => {
+    const handleScroll = throttle(() => {
       if (sectionRef.current) {
         const rect = sectionRef.current.getBoundingClientRect();
         const isVisible = rect.top <= window.innerHeight && rect.bottom >= 0;
         setIsVisible(isVisible);
       }
     }, 100); // Adjust throttle delay as needed
-
+  
     window.addEventListener("scroll", handleScroll);
-
+  
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
